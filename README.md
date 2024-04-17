@@ -8,4 +8,4 @@ Experiment Result Visualization (accuracy metrics): [Viz-animint2-interactive](h
 **Author: Tianyi Chen, Ian Philippi, Quoc Bao Phan, Linh Nguyen, Ngoc Thang Bui, Carlo daCunha, and Tuy Tan Nguyen**
 
 
-**News: Our paper has been accepted by Journal: [Healthcare Analytics](https://www.sciencedirect.com/journal/healthcare-analytics), the related contents will coming soon!**
+**News: Our paper has been accepted by Journal: [Healthcare Analytics](https://www.sciencedirect.com/journal/healthcare-analytics), and the related content will come soon!**
