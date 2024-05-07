@@ -8,6 +8,7 @@ Experiment Result Visualization (accuracy metrics): [Viz-animint2-interactive](h
 
 **Author: Tianyi Chen ([First Author](https://authors.elsevier.com/tracking/article/details.do?aid=100332&jid=HEALTH&surname=Nguyen), Creator), Ian Philippi (Editor), Quoc Bao Phan (Supervisor, Editor), Linh Nguyen (Supervisor), Professor Ngoc Thang Bui (Supervisor), Professor Carlo daCunha (Supervisor), and Professor Tuy Tan Nguyen (Supervisor, Creator)**
 
+Introduction of this research and its extended work: [https://sites.google.com/nau.edu/ai-telehealth/home](https://sites.google.com/nau.edu/ai-telehealth/home)
 ## Catalog:
 
 * [Abstract](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#abstract)
