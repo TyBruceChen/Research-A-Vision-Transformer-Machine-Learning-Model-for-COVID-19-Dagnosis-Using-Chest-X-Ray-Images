@@ -5,7 +5,7 @@ Experiment Visualization (Grad-CAM): [Animated2GradCAM-COVID19-Chest-X-ray-ViT-V
 
 Experiment Result Visualization (accuracy metrics): [Viz-animint2-interactive](https://tybrucechen.github.io/Viz-animint2-research-covid-19-chest-xrays/) [(Repository)](https://github.com/TyBruceChen/Viz-animint2-research-covid-19-chest-xrays-Code)
 
-**Author: Tianyi Chen, Ian Philippi, Quoc Bao Phan, Linh Nguyen, Ngoc Thang Bui, Carlo daCunha, and Tuy Tan Nguyen**
+**Author: Tianyi Chen ([First Author](https://authors.elsevier.com/tracking/article/details.do?aid=100332&jid=HEALTH&surname=Nguyen), Creator), Ian Philippi (Editor), Quoc Bao Phan (Supervisor, Editor), Linh Nguyen (Supervisor), Professor Ngoc Thang Bui (Supervisor), Carlo daCunha (Supervisor), and Professor Tuy Tan Nguyen (Supervisor, Creator)**
 
 
 **News: Our paper has been accepted by Journal: [Healthcare Analytics](https://www.sciencedirect.com/journal/healthcare-analytics), and the related content will come soon!**
