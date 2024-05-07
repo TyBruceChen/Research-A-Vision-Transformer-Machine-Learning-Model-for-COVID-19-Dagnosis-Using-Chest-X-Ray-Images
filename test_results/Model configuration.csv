@@ -1,0 +1,9 @@
+Model,learning rate,batch size,weight decay,preprocessing method
+EfficientNet-B0,1.00E-03,16,1.00E-05,Gamma Correction
+EfficientNet-B5,1.00E-03,16,1.00E-05,None
+EfficientViT-B3,2.00E-06,32,1.00E-02,None
+MViT2,2.00E-06,16,1.00E-02,None
+ViT-Base-patch8,2.00E-06,16,1.00E-01,None
+ViT-Base-patch16,1.00E-05,64,1.00E-02,None
+ViT-Base-patch32,1.00E-05,64,1.00E-01,None
+Our proposed model,1.00E-05,64,5.00E-03,None

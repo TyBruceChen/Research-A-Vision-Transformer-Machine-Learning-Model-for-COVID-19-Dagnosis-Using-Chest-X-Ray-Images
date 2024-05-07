@@ -1,0 +1,9 @@
+Model,Accuracy,Recall,Precision,F1 score,Training time per epoch (s)
+EfficientNet-B0,94.65,98.59,98.31,98.45,90.31
+EfficientNet-B5,93.94,99.43,97.23,98.32,286.26
+EfficientViT-B3,94.51,98.59,98.03,98.31,276.45
+MViT2,94.41,96.88,97.71,97.29,492.49
+ViT-Base-patch8,95.41,99.15,98.59,98.87,1652.94
+ViT-Base-patch16,95.22,98.31,98.86,98.58,313.94
+ViT-Base-patch32,93.71,98.29,97.47,97.88,89.77
+Our proposed model,95.79,98.59,98.87,98.73,264.79
