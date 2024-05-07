@@ -13,6 +13,7 @@ Catalog:
 * [Abstract](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#abstract)
 * [Proposed Model Strucuter](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#proposed-fine-tuned-vistion-transformer-structure)
 * [Results Analysis](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#results)
+* [Code Structure](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#code-structure)
 * [Citation](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#citation)
 
 **News: Our paper has been accepted by Journal: [Healthcare Analytics](https://www.sciencedirect.com/journal/healthcare-analytics), and the related is coming!**
@@ -24,6 +25,10 @@ Catalog:
 ### Proposed Fine-Tuned Vistion Transformer Structure:
 
 ![ViT structure Paper (3)](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/1c0485c7-c1d6-4fe7-80c0-579c1b98adf7)
+
+### Code Structure:
+
+* 
 
 ### Results:
 
