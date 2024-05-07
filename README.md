@@ -8,7 +8,7 @@ Experiment Result Visualization (accuracy metrics): [Viz-animint2-interactive](h
 
 **Author: Tianyi Chen ([First Author](https://authors.elsevier.com/tracking/article/details.do?aid=100332&jid=HEALTH&surname=Nguyen), Creator), Ian Philippi (Editor), Quoc Bao Phan (Supervisor, Editor), Linh Nguyen (Supervisor), Professor Ngoc Thang Bui (Supervisor), Professor Carlo daCunha (Supervisor), and Professor Tuy Tan Nguyen (Supervisor, Creator)**
 
-Catalog:
+## Catalog:
 
 * [Abstract](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#abstract)
 * [Proposed Model Strucuter](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#proposed-fine-tuned-vistion-transformer-structure)
@@ -28,7 +28,15 @@ Catalog:
 
 ### Code Structure:
 
-* 
+Main:
+* train_early_stopping.py: train all models
+* model_test.py: test and generate evaluations (metrics, confusion matrix, ROC curve)
+
+Functions:
+* ImageLoader.py: package images
+* model_visualization.py: generate Grad-CAM visualizations using other's Python package (not a function file but seldom use)
+* model_manipulation.py: set learning stopping and crop the built-in blocks of ViT
+* repadapter.py: a method to reconstruct the ViT encoders in [Towards Efficient Visual Adaption via Structural Re-parameterization](https://arxiv.org/abs/2302.08106) (not mentioned in the paper, just for experiments)
 
 ### Results:
 
