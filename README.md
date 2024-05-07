@@ -1,5 +1,6 @@
-# Research: A Vision Transformer Machine Learning Model for COVID-19 Dagnosis Using Chest X-Ray Images
-The code will be attached once our paper: &lt;A Vision Transformer Machine Learning Model for COVID-19 Dagnosis Using Chest X-Ray Images> has been accepted and published.
+# Research: [A Vision Transformer Machine Learning Model for COVID-19 Dagnosis Using Chest X-Ray Images](https://doi.org/10.1016/j.health.2024.100332)
+
+This is the code used in the research: [A vision transformer machine learning model for COVID-19 diagnosis using chest X-ray images](https://doi.org/10.1016/j.health.2024.100332)
 
 Experiment Visualization (Grad-CAM): [Animated2GradCAM-COVID19-Chest-X-ray-ViT-V5-140px-609Case--Final](https://tybrucechen.github.io/Animated2GradCAM-COVID19-Chest-X-ray-ViT-V5-140px-609Case--Final/) [(Repository)](https://github.com/TyBruceChen/Animated2GradCAM-COVID19-Chest-X-ray-ViT-V5-140px-609Case--Final)
 
@@ -7,8 +8,33 @@ Experiment Result Visualization (accuracy metrics): [Viz-animint2-interactive](h
 
 **Author: Tianyi Chen ([First Author](https://authors.elsevier.com/tracking/article/details.do?aid=100332&jid=HEALTH&surname=Nguyen), Creator), Ian Philippi (Editor), Quoc Bao Phan (Supervisor, Editor), Linh Nguyen (Supervisor), Professor Ngoc Thang Bui (Supervisor), Professor Carlo daCunha (Supervisor), and Professor Tuy Tan Nguyen (Supervisor, Creator)**
 
+Catalog:
 
-**News: Our paper has been accepted by Journal: [Healthcare Analytics](https://www.sciencedirect.com/journal/healthcare-analytics), and the related content will come soon!**
+* [Abstract](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/edit/main/README.md#abstract)
+* [Proposed Model Strucuter](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/edit/main/README.md#proposed-fine-tuned-vistion-transformer-structure)
+* [Results Analysis](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/edit/main/README.md#results)
+* [Citation](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/edit/main/README.md#citation)
+
+**News: Our paper has been accepted by Journal: [Healthcare Analytics](https://www.sciencedirect.com/journal/healthcare-analytics), and the related is coming!**
+
+### Abstract:
+
+![image](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/b865b0bc-3765-4f64-88ff-d13212bd1e15)
+
+### Proposed Fine-Tuned Vistion Transformer Structure:
+
+![ViT structure Paper (3)](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/1c0485c7-c1d6-4fe7-80c0-579c1b98adf7)
+
+### Results:
+
+<img width="806" alt="fig3" src="https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/39e2fad6-3fc7-47c0-87f6-2b4c1d433c39">
+
+<img width="944" alt="tb2" src="https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/ac68b3d4-018f-483d-b710-4388be5cb4c4">
+
+<img width="766" alt="fig5" src="https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/5f4c3398-9bd1-4706-9b4d-1e57f51cb023">
+
+<img width="791" alt="tb4" src="https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/2cd81541-d9b4-4080-b668-a393ccde1dc3">
+
 
 
 ## Citation: ##
