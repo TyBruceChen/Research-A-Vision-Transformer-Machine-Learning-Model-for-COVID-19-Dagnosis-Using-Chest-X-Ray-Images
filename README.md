@@ -2,9 +2,9 @@
 
 This is the code used in the research: [A vision transformer machine learning model for COVID-19 diagnosis using chest X-ray images](https://doi.org/10.1016/j.health.2024.100332)
 
-Experiment Visualization (Grad-CAM): [Animated2GradCAM-COVID19-Chest-X-ray-ViT-V5-140px-609Case--Final](https://tybrucechen.github.io/Animated2GradCAM-COVID19-Chest-X-ray-ViT-V5-140px-609Case--Final/) [(Repository)](https://github.com/TyBruceChen/Animated2GradCAM-COVID19-Chest-X-ray-ViT-V5-140px-609Case--Final)
+Experiment Visualization (Grad-CAM): [Animated2GradCAM-COVID19-Chest-X-ray-ViT-V5-140px-609Case (Final)](https://tybrucechen.github.io/Animated2GradCAM-COVID19-Chest-X-ray-ViT-V5-140px-609Case/) [(Repository)](https://github.com/TyBruceChen/Animated2GradCAM-COVID19-Chest-X-ray-ViT-V5-140px-609Case--Final)
 
-Experiment Result Visualization (accuracy metrics): [Viz-animint2-interactive](https://tybrucechen.github.io/Animated2GradCAM-COVID19-Chest-X-ray-ViT-V5-140px-609Case/) [(Repository)](https://github.com/TyBruceChen/Viz-animint2-research-covid-19-chest-xrays-Code)
+Experiment Result Visualization (accuracy metrics): [Viz-animint2-interactive](https://tybrucechen.github.io/Viz-animint2-research-covid-19-chest-xrays/) [(Repository)](https://github.com/TyBruceChen/Viz-animint2-research-covid-19-chest-xrays-Code)
 
 **Author: Tianyi Chen ([First Author](https://authors.elsevier.com/tracking/article/details.do?aid=100332&jid=HEALTH&surname=Nguyen), Creator), Ian Philippi (Editor), Quoc Bao Phan (Supervisor, Editor), Linh Nguyen (Supervisor), Professor Ngoc Thang Bui (Supervisor), Professor Carlo daCunha (Supervisor), and Professor Tuy Tan Nguyen (Supervisor, Creator)**
 
