@@ -18,7 +18,7 @@ Introduction of this research and its extended work: [https://sites.google.com/n
 * [Citation](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#citation)
 * [Debugging (Author Recap Use)](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#debugging)
 
-**News: Our paper has been accepted by Journal: [Healthcare Analytics](https://www.sciencedirect.com/journal/healthcare-analytics), and the related is coming!**
+**News: Our paper has been accepted by Journal: [Healthcare Analytics](https://www.sciencedirect.com/journal/healthcare-analytics), and the related is content coming!**
 
 ### Abstract:
 
