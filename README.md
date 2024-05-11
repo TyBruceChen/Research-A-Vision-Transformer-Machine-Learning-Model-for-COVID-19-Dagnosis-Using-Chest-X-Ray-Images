@@ -37,7 +37,7 @@ Main:
 Functions:
 * ImageLoader.py: package images
 * model_visualization.py: generate Grad-CAM visualizations using other's Python package (not a function file but seldom use)
-* model_manipulation.py: set learning stopping and crop the built-in blocks of ViT
+* model_manipulation.py: set early stoppings and crop the built-in blocks of ViT
 * repadapter.py: a method to reconstruct the ViT encoders in [Towards Efficient Visual Adaption via Structural Re-parameterization](https://arxiv.org/abs/2302.08106) (not mentioned in the paper, just for experiments)
 
 ### Results:
