@@ -8,7 +8,9 @@ Experiment Visualization (Grad-CAM): [Animated2GradCAM-COVID19-Chest-X-ray-ViT-V
 
 Experiment Result Visualization (accuracy metrics): [Viz-animint2-interactive](https://tybrucechen.github.io/Viz-animint2-research-covid-19-chest-xrays/) [(Repository)](https://github.com/TyBruceChen/Viz-animint2-research-covid-19-chest-xrays-Code)
 
-Research Introduction and its extended work: [https://sites.google.com/nau.edu/ai-telehealth/home](https://sites.google.com/nau.edu/ai-telehealth/home)
+Research Introduction and its extended work: [https://sites.google.com/nau.edu/ai-telehealth/home](https://sites.google.com/nau.edu/ai-telehealth/home)<br>
+
+Online realization repository (conduct diagnosis online): [NAU-AI-Telehealth-Web-App](https://github.com/TyBruceChen/NAU-AI-Telehealth-Web-App).
 ## Catalog:
 
 * [Abstract](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#abstract)
