@@ -17,6 +17,7 @@ Online realization repository (conduct diagnosis online): [NAU-AI-Telehealth-Web
 * [Proposed Model Strucuter](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#proposed-fine-tuned-vistion-transformer-structure)
 * [Results Analysis](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#results)
 * [Code Structure](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#code-structure)
+* [Supplementary Notes](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#supplementary-notes)
 * [Citation](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#citation)
 * [Debugging (Author Recap Use)](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images?tab=readme-ov-file#debugging)
 
@@ -51,6 +52,18 @@ Functions:
 <img width="766" alt="fig5" src="https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/5f4c3398-9bd1-4706-9b4d-1e57f51cb023">
 
 <img width="791" alt="tb4" src="https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/2cd81541-d9b4-4080-b668-a393ccde1dc3">
+
+### Supplementary Notes:
+
+When I reviewed the structure of vision transformers, I found some claims may be vague or misleading. Thus I supplement here (the premises (source code) are from [timm/vision_tranformer](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vision_transformer.py)):
+1. The tensor is passed shaping as [1, 197, 768] between encoders, where 768 can **not** be interpreted as 16\*16\*3 (patch_size * patch_size * RGB channels or (Q, K, V channels)). This size is just a coincidence. The projection of patches can be specified arbitrarily: <br>
+![image](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/43b85259-4905-4352-923d-c7fcfc23a303)
+
+2. In theory, the embedding (1,197, 768) equally multiplies with Q, K, and V weight matrixes to generate the Q, K, and V tensors. In practice, they are processed by the same linear layer with 3 * dim, and then the output of this linear layer is divided into Q, K, and V values: <br>
+![image](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/2b90175c-c8ea-48f6-889b-b03b03853b9a)
+
+3. The cls_token (classification token/patch, in 1 from 196 + 1 = 197), is initialized randomly and trained with other patches, such that it is believed to aggregate the information from all encoders and used to make classifications in the final output layers. Hence in bottom layers, only this cls_token vector is extracted (size of 768): (printed out by torch-summary, the size of intermediate tensor of the encoder is wrong, but the output size is correct)<br>
+![image](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/d49eef00-2733-43b3-943b-93e4f458e452)
 
 
 
