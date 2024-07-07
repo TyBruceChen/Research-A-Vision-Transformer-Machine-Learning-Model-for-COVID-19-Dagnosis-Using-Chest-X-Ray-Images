@@ -68,7 +68,7 @@ When I reviewed the structure of vision transformers, I found some claims may be
 4. The number of heads (attention blocks) in one MHA block is specified independently (in our case, the default 12 heads is applied). Although the model's scheme may seem to be complex to realize the parallel computing and concatenation (after each attention is calculated), the actual implementation is relatively doddle: Just by reshaping the tensor to the intended hierarchical structure: <br>
 ![Screenshot_25-6-2024_11756_github com](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/e72187d7-44a1-4f80-b18c-5dd83d0f87d3)
 
-5. An intelligible and detailed interpretation of GPT2 (transformer) model by others: (https://jalammar.github.io/illustrated-gpt2/)[https://jalammar.github.io/illustrated-gpt2/]
+5. An intelligible and detailed interpretation of GPT2 (transformer) model by others: [https://jalammar.github.io/illustrated-gpt2/](https://jalammar.github.io/illustrated-gpt2/), which includes the tokenization (for NLP, in the top half of page), and self-attention application (in the middle of the page) and the implementation detail (at the bottom half of the page).
 
 
 ## Citation: ##
