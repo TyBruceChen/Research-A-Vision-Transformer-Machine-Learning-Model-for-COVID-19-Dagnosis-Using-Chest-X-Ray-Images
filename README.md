@@ -62,12 +62,13 @@ When I reviewed the structure of vision transformers, I found some claims may be
 2. In theory, the embedding (1,197, 768) equally multiplies with Q, K, and V weight matrixes to generate the Q, K, and V tensors. In practice, they are processed by the same linear layer with 3 * dim, and then the output of this linear layer is divided into Q, K, and V values: <br>
 ![image](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/2b90175c-c8ea-48f6-889b-b03b03853b9a)
 
-3. The cls_token (classification token/patch, in 1 from 196 + 1 = 197), is initialized randomly and trained with other patches, such that it is believed to aggregate the information from all encoders and used to make classifications in the final output layers. Hence in bottom layers, only this cls_token vector is extracted (size of 768): (printed out by torch-summary, the size of intermediate tensor of the encoder is wrong, but the output size is correct)<br>
+3. The cls_token (classification token/patch, in 1 from 196 + 1 = 197), is initialized randomly and trained with other patches, such that it is believed to aggregate the information from all encoders and used to make classifications in the final output layers. Hence in the bottom layers, only this cls_token vector is extracted (size of 768): (printed out by torch-summary, the size of the intermediate tensor of the encoder is wrong, but the output size is correct)<br>
 ![image](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/d49eef00-2733-43b3-943b-93e4f458e452)
 
 4. The number of heads (attention blocks) in one MHA block is specified independently (in our case, the default 12 heads is applied). Although the model's scheme may seem to be complex to realize the parallel computing and concatenation (after each attention is calculated), the actual implementation is relatively doddle: Just by reshaping the tensor to the intended hierarchical structure: <br>
 ![Screenshot_25-6-2024_11756_github com](https://github.com/TyBruceChen/Research-A-Vision-Transformer-Machine-Learning-Model-for-COVID-19-Dagnosis-Using-Chest-X-Ray-Images/assets/152252677/e72187d7-44a1-4f80-b18c-5dd83d0f87d3)
 
+5. An intelligible and detailed interpretation of GPT2 (transformer) model by others: (https://jalammar.github.io/illustrated-gpt2/)[https://jalammar.github.io/illustrated-gpt2/]
 
 
 ## Citation: ##
